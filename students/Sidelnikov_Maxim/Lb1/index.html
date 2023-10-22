@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Калькулятор</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  
+  <body class="light-theme or dark-theme">
+    <div class="center"> <!-- div - это базовый html-контейнер, который может содержать в себе другие html-элементы. -->
+      
+      <div>
+        <h1><mark>Знакомство</mark> с инструментами построения пользовательских интерфейсов web-сайтов:
+          <select name = "Инструмент" size="3" multiple>
+          <option><mark>HTML</mark></option>
+          <option><mark>CSS</mark></option>
+        </select></h1>
+      </div>
 
-<head>
-  <title>Калькулятор</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body class="dark-theme или light-theme">
-  <div class="center"> <!-- div - это базовый html-контейнер, который может содержать в себе другие html-элементы. -->
-    
-    <div>
-        <button id="btn_on_color_change" class="btn_color_change">Switch themes</button>
+      <div>
+        <button id="btn_on_color_change" class="btn-color-change">Switch themes</button>
+        <script src = "js/color_change.js"></script>
     </div>
 
     <!-- блок с экраном калькулятора, где будет выводиться результат вычислений. -->
@@ -57,7 +65,12 @@
       </div>
     </div>
     <div>
-        <h1>Лабораторную работу выполнил: Сидельников М.Э.</h1>
+        <h1>Лабораторную работу выполнил: <section>
+          <details>
+            <summary>Автор работы</summary>
+            <p>Сидельников М.Э., ИС-21</p>
+          </details>
+        </section></h1>
     </div>
     <div>
         <form action="https://github.com/MorgandeCesso/" target="_blank">

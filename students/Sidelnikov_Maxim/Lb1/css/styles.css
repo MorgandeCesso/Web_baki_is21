@@ -38,7 +38,7 @@
   
   /* селектор для кнопки расчета выражения (=) */
   .my-btn.execute { 
-    width: 100px;          /* сделаем кнопку шире других */
+    width: 109px;          /* сделаем кнопку шире других */
     border-radius: 0px;   /* подкорректируем округлость */
   }
   
@@ -84,7 +84,7 @@
     overflow: auto;
   }
 
-  .btn_color_change{
+  .btn-color-change{
     background-image: url(../img/meme.jpg);
     background-size: cover;
     background-position: center;
